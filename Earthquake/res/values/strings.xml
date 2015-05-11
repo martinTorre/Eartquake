@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Earthquake</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- Summary -->
+    <string name="title_place">Place</string>
+    <string name="title_mag">Magnitude</string>
+
+    <!-- Detail -->
+    <string name="button_show_map">Show Map</string>
+    <string name="txt_depth">Depth:</string>
+    <string name="txt_date">Date:</string>
+    <string name="txt_magnitude">Magnitude:</string>
+    
+    <!-- Maps -->
+    <string name="google_maps_key">AIzaSyAvFRyp3KkCX21N7WSDgjQlouaQkJHwipY</string>
+    
+    <!-- Action bar -->
+    <string name="action_bar_button">O</string>
+    
+</resources>

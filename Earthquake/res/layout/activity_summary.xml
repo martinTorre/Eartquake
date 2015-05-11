@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="@color/bright_foreground_material_dark"
+	    android:weightSum="1" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/title_place"
+            android:layout_margin="18dp"
+            android:textSize="23sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".50"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/title_mag"
+            android:layout_margin="18dp"
+            android:textSize="23sp" />
+        
+	</LinearLayout>
+	
+	<FrameLayout android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+	
+    <ListView
+	    android:id="@+id/listviewSummary"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:fastScrollEnabled="true"
+	    ></ListView>
+	
+	<ProgressBar 
+	    android:id="@+id/progress"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:visibility="gone"/>
+	    
+	</FrameLayout>
+	
+</LinearLayout>

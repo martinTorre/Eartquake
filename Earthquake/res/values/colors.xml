@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black_overlay">#66000000</color>    
+	<color name="white">#FFFFFF</color>
+
+	<!-- Magnitude colors -->
+	<color name="mag_1">#01DF3A</color>
+	<color name="mag_2">#01DF01</color>
+	<color name="mag_3">#3ADF00</color>
+	<color name="mag_4">#74DF00</color>
+	<color name="mag_5">#A5DF00</color>
+	<color name="mag_6">#D7DF01</color>
+	<color name="mag_7">#DBA901</color>
+	<color name="mag_8">#DF7401</color>
+	<color name="mag_9">#DF3A01</color>
+	<color name="mag_10">#DF0101</color>
+</resources>
+
